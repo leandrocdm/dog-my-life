@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>Dog my Life | Agendamento de Serviços |</title>
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="../css/default.css">
+<script type="text/javascript" src="../js/AgendarServico.js"></script>
+</head>
+
+<body>
+
+	<div id=all>
+		<div id="banner">
+			<img src="../img/banner.jpg">
+		</div>
+
+		<div id="propaganda">
+			<a href="http://www.ligadasflorestas.org.br" target="_blank"><img
+				src="../img/propaganda.jpg"></a>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li><a href="../pages/CadastrarCliente.html">Efetuar Cadastro</a></li>
+				<li><a href="../pages/AgendarServico.html">Agendar Serviços</a></li>
+			</ul>
+		</div>
+
+		<div id="conteudo">
+			<form action="AgendarServico.html" method="post">
+				<fieldset>
+					<legend>Agendar Serviços</legend>
+					<table cellspacing="24">
+						<tr>
+							<td><label for="nome">Nome do Cliente:</label></td><td><label for="nome2">X______________X</label></td>
+						</tr>
+						<tr>
+							<td><label for="agendamento">Agendamento: </label></td>
+							<td align="left"><input type="date" name="agendamentodate" align="left"><input type="time" name="agendamentotime">
+						</tr>
+						<tr>
+							<td><label for="Animal">Animal:</label></td>
+							<td align="left"><select name="animal">
+									<option value="dully">Dully</option>
+									<option value="tobby">Tobby</option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="especie">Espécie:</label></td><td><label for="especie2">X______________X</label></td>
+						</tr>
+						<tr>
+							<td><label for="raca">Raça:</label><td><label id="raca2" for="raca2">X______________X</label></td>
+						</tr>	
+						<tr>
+							<td><label for="nomeanimal">Serviço(s):</label></td>
+						</tr>
+						<tr>	
+						<td><input type="checkbox" id="banho" value="banho">Banho<br></td><td><input type="checkbox" id="babysitter" value="banho">BabySitter<br></td>
+						</tr>
+						<tr>	
+						<td><input type="checkbox" id="tosa" value="banho">Tosa<br></td><td><input type="checkbox" id="consulta" value="banho">Consulta<br></td>
+						</tr>
+						<tr>	
+						<td><input type="checkbox" id="spa" value="banho">SPA<br></td><td><input type="checkbox" id="banhodeoleo" value="banho">Banho de Óleo<br></td>
+						</tr>
+						<tr>	
+						<td><input type="checkbox" id="hotel" value="banho">Hotel<br></td>
+						</tr>	
+					</table>
+												<center><input type="submit" value="Confirmar Serviços" onclick="javascript:efetuarAgendamento()"></center>
+				</fieldset>
+			</form>
+			</div>
+			</div>
+</body>
+</html>

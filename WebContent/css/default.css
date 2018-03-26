@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+/*Tudo que se refere a ALL, COMEÇA aqui*/
+#all {
+	width: 1300px;
+	height: 810px;
+	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/*Tudo que se refere a ALL, TERMINA aqui*/
+/* 
+/*
+/*Tudo que se refere ao BANNER, COMEÇA aqui*/
+#banner {
+	background-color: #ffffff;
+	width: 1300px;
+	height: 202px;
+	float: top;
+}
+/*Tudo que se refere ao BANNER, TERMINA aqui*/
+/* 
+/*
+/*Tudo que se refere a PROPAGANDA, COMEÇA aqui*/
+#propaganda {
+	height: 600px;
+	width: 160px;
+	float: right;
+}
+/*Tudo que se refere a PROPAGANDA, TERMINA aqui*/
+/* 
+/*
+/*Tudo que se refere ao menu, COMEÇA aqui*/
+#menu {
+	background-color: #ffffff;
+	height: 600px;
+	width: 160px;
+	float: left;
+	font-size: 15px;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 1px;
+}
+
+#menu ul li {
+	border-color: #00ff40;
+	border-style: solid;
+	border-radius: 4px;
+	border-color: black;
+	border-width: 1px;	
+	margin-top: 10px;
+	padding: 1px;
+}
+
+#menu ul li:hover {
+	font-weight: bold;
+}
+
+#menu ul li a:link {
+	text-decoration: none;
+}
+
+#menu a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/*Tudo que se refere ao MENU, TERMINA aqui*/
+/* 
+/*
+/*Tudo que se refere ao CONTEÚDO, COMEÇA aqui*/
+#conteudo {
+	padding-left: 10px;
+	height: 600px;
+	width: 970px;
+	float: left;
+		
+}
+/*Tudo que se refere ao CONTEÚDO, TERMINA aqui*/
+/* 
+/*
+/*Tudo que se refere ao FOMULARIO, COMEÇA aqui*/
+input[type=submit] {
+	width: 300px;
+	background-color: #4E2F2F;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 14px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #5C4033;
+}
+
+input[type=date] {
+	border-right-style: none;
+	border-right-color: white;
+}
+input[type=time] {
+		border-left-style: none;
+	border-left-color: white;
+}
+
+
+/*Tudo que se refere ao FOMULARIO, TERMINA aqui*/
